@@ -1,0 +1,15 @@
+[
+{"id":1, "type":"temperature","lat":30, "lon":50, "gateway":"gateway1"},
+{"id":2, "type":"humidity","lat":36, "lon":53, "gateway":"gateway1"},
+{"id":3, "type":"light","lat":10, "lon":65, "gateway":"gateway2"},
+{"id":4, "type":"motion","lat":60, "lon":86, "gateway":"gateway2"},
+{"id":5, "type":"water","lat":43, "lon":34, "gateway":"gateway1"},
+{"id":6, "type":"oil","lat":67, "lon":46, "gateway":"gateway2"},
+{"id":22, "type":"heat","lat":"a", "lon":1, "gateway":"gateway22"},
+{"id":11, "type":"medical","lat":"a", "lon":1, "gateway":"gateway11"},
+{"id":220, "type":"heat","lat":"a", "lon":2, "gateway":"gateway22"},
+{"id":110, "type":"medical","lat":"a", "lon":2, "gateway":"gateway11"},
+{"id":2200, "type":"heat","lat":"a", "lon":3, "gateway":"gateway22"},
+{"id":1100, "type":"medical","lat":"a", "lon":3, "gateway":"gateway11"},
+{"id":22000, "type":"heat","lat":"a", "lon":4, "gateway":"gateway22"},
+{"id":11000, "type":"medical","lat":"a", "lon":4, "gateway":"gateway11"}]

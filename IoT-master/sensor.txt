@@ -1,0 +1,14 @@
+solar energy meaurement sysytem
+sensors could be placed at different locations,across the state or country level,now based on the data received from the sensor it could be predicted/analysed that which region has the optimum solar energy received,now based on this data the solar panels could be installed in the concerned area.
+
+Advanced Wireless Automatic Digital Pumping System for Agriculture using Soil Sensor
+soil sensors can detect from where the soil quality content has been optimum for agricultutre,differnt attributes like water content,minerals,potassium content etc. could be sensed by the SOIL SENSORS and based on the data received the water pumps which are connected with the system can be activated automatically thus helping in managing huge farms.
+
+Advanced Wireless Earth Quake Alarm System for Early Warning
+this might include installig sensors deep beneath the crust surface,the sensors might detect the behaviour of the surface change also the pressure above and below the sensor location,and based on such data from various sensors the earthquake probablity can be estimated and an early warning could be generated. 
+
+Design & Implementation of Railway Automation System with Sensors Network
+this system include heterogenous sensors,like there would be a difference in sensor for the station entrance,and the sensor  installed for signal generation for the trains ,now based on the data the signals could be generated.ESPECIALYY during foggy conditions a thermal sensor would be a boon if installed nearby the tracks,thus train operation would also be possible in foggy conditions.
+
+Street Light that Glows on Detecting Vehicle Movement
+the motion sensors,thermal sensors would make this system functional if a vehicle presence is detected then the motion sensor would help in detecting the vehicle movement and street lights could be automated accordingly.

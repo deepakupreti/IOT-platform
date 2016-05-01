@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ip"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Server IP"
+            android:id="@+id/newip"
+            android:layout_weight="0.7"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setIP"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.3"
+            android:text="Set IP"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ip"
+        android:id="@+id/gateway"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Gateway Name"
+            android:id="@+id/egate"
+            android:layout_weight="0.7"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bgate"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.3"
+            android:text="Set"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gateway"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Start Gateway"
+        android:id="@+id/startGateway"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Recieved Data"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/startGateway"
+        android:textSize="30dp"
+        android:id="@+id/lbl"/>
+
+    <TextView android:text=""
+        android:layout_width="wrap_content"
+        android:id = "@+id/sensorval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="45dp"
+        android:layout_below="@+id/lbl"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

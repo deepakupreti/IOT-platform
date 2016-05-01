@@ -1,0 +1,11 @@
+[
+{"type":"temperature", "unit":"Degree Celsius"},
+{"type":"water", "unit":"Litres"},
+{"type":"oil", "unit":"Grams per Inch"},
+{"type":"light", "unit":"Nits"},
+{"type":"heat", "unit":"Number of Cars"},
+{"type":"heart", "unit":"Heartbeats/Minute"},
+{"type":"respire", "unit":"Breathings/Minute"},
+{"type":"glucose", "unit":"Grams/Litre"},
+{"type":"pressure", "unit":"Cycles/Minute"}
+]

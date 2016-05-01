@@ -1,0 +1,132 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    style="@style/AppTheme"
+    android:background="#4e495037">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ip"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Server IP"
+            android:id="@+id/newip"
+            android:layout_weight="0.7"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setIP"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.3"
+            android:text="Set IP"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ip"
+        android:id="@+id/lvl"
+        android:weightSum="1"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Level"
+            android:id="@+id/water"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ip"
+            android:layout_marginTop="30dp"
+            android:typeface="monospace"
+            android:shadowColor="#ffff450f"
+            android:textSize="25dp"
+            android:textIsSelectable="true"
+            android:textColorLink="#ff110fff"
+            android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Water Level"
+        android:id="@+id/buttonwater"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/temp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oil Level"
+                android:id="@+id/oil"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/ip"
+                android:layout_marginTop="50dp"
+                android:typeface="monospace"
+                android:shadowColor="#ffff450f"
+                android:textSize="25dp"
+                android:textColorLink="#ff110fff"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Oil Level"
+                android:id="@+id/buttonoil"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/temp"
+                android:layout_centerHorizontal="true"
+                android:textColorHighlight="@android:color/white"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/alert"
+        android:id="@+id/buttonalert"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/fieldalert"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alert"
+        android:id="@+id/fieldalert"
+        android:layout_below="@+id/lvl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="35dp" />
+</RelativeLayout>
